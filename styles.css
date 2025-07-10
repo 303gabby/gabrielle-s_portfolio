@@ -73,6 +73,7 @@ a{
     font-family: 'Satoshi';
    
 }
+
 #big_g{
     color: #FAF3DD;
     font-family: 'Lyzero', sans-serif;
@@ -86,7 +87,24 @@ p{
 }
 #big_c{
     color: #FAF3DD;
+    font-family: 'Lyzero', sans-serif;
+     font-size: 200px;
+     letter-spacing: 5px;
+     text-align: center;
 }
 .sectitle{
     color: #FAF3DD;
+    font-family: 'Satoshi';
+    font-weight: 500;
+}
+#selfie{
+    width: 329px;
+    border-radius: 17px;
+    
+}
+#bio_text{
+    font-family: 'Satoshi';
+    color: #FAF3DD;
+    font-weight: 500;
+    font-size: 27px;
 }
