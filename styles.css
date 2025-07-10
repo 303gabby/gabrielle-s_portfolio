@@ -98,13 +98,15 @@ p{
     font-family: 'Satoshi';
     font-weight: 500;
     padding-left: 35px;
+    padding-top: 20px;
 }
 #top_about{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 30px;
+    padding-top: 5px;
     padding-bottom: 50px;
+    padding-left: 10px;
 }
 #bt{
     width: 878px;
@@ -113,14 +115,14 @@ p{
 }
 #selfie{
     width: 329px;
-    border-radius: 17px;
+    border-radius: 200px;
     
 }
 #bio_text{
     font-family: 'Satoshi';
     color: #FAF3DD;
     font-weight: 500;
-    font-size: 27px;
+    font-size: 25px;
 }
 #images{
     display: flex;
@@ -184,4 +186,21 @@ p{
 
 .card {
     transition: transform 0.3s ease;
+}
+/* Gallery Stuff */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
