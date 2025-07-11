@@ -257,3 +257,6 @@ padding-left: 35px;
 font-size: 20px;
 
 }
+.bull{
+    list-style-type:circle;
+}
