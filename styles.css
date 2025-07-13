@@ -54,12 +54,15 @@ ul, li{
     text-decoration: none;
     list-style-type: none;
     font-family: 'Satoshi';
-    font-size: 18px;
+    font-size: 17px;
 }
 
 nav{
     color: #FAF3DD;
     padding-top: 15px;
+    position: sticky;
+    top: 0;
+    background-color: #36643F;
 }
 .nvbar ul {
   margin: 0;
@@ -67,6 +70,10 @@ nav{
   display: flex;           
   gap: 2rem;               
   align-items: center;
+}
+.nvbar li {
+  padding: 10px;
+
 }
 a{
     color: #FAF3DD;
@@ -94,7 +101,7 @@ p{
     color: #FAF3DD;
     font-family: 'Lyzero', sans-serif;
      font-size: 200px;
-     letter-spacing: 5px;
+     letter-spacing: 8px;
      text-align: center;
      display:flex;
      justify-content: center;
@@ -105,7 +112,7 @@ p{
     color: #FAF3DD;
     font-family: 'Satoshi';
     font-weight: 500;
-    padding-left: 35px;
+    padding-left: 40px;
     padding-top: 20px;
 }
 #top_about{
@@ -248,15 +255,45 @@ button{
     border: #91af91;
     border-radius: 3px;
     height: 46px;
+    margin-left: 39px;
+   
 }
 #fctpar{
-width: 400 px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 padding-left: 35px;
 }
 .ft_ans{
 font-size: 20px;
-
+padding-left: 10px;
 }
 .bull{
+    
     list-style-type:circle;
+    max-width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+}
+.work_job{
+    padding-left: 7%;
+}
+.ft_sec{
+    padding-left: 50px;
+}
+#actft{
+    max-width: 90%;
+}
+.ft_ans{
+    font-size: 20px;
+}
+.ft_ans2{
+    font-size: 17px;
+    padding-left: 25px;
+}
+hr{
+    width: 93%;
+    justify-content: left;
+   
 }
