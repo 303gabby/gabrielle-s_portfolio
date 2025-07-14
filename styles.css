@@ -376,6 +376,19 @@ img.wide-image {
     height: 300px; 
     scroll-snap-align: start;
   }
+  #big_c {
+    font-size: 80px;
+    letter-spacing: 4px;
+  }
+    #big_g{
+   
+     font-size: 40px;
+     letter-spacing: 5px;
+   
+}
+.stack{
+    padding-bottom: 15%;
+}
 }
 @media screen and (max-width: 480px) {
 
@@ -394,9 +407,7 @@ img.wide-image {
     img.wide-image {
         grid-column: auto;
     }
-    #big_g{
-        max-width: 5%;
-    }
+    
     .nvbar{
         max-width: fit-content;
     }
@@ -412,7 +423,30 @@ img.wide-image {
     height: 300px;
  
   }
-  
+  #big_c {
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-bottom: 45%;
+    padding-top: 45%;
+  }
+  #big_g{
+   
+     font-size: 28px;
+     letter-spacing: 5px;
+     padding-top: 35%;
+     padding-bottom: 35%;
+   
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    padding-right: 0px;
+}
+.stack{
+    padding-right: 15%;
+}
 
 }
 
