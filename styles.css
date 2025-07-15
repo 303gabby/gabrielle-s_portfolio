@@ -56,7 +56,18 @@ ul, li{
     font-family: 'Satoshi';
     font-size: 17px;
 }
-
+h3{
+    font-family: 'Satoshi';
+  color: #FAF3DD;
+}
+h4{
+  font-family: 'Satoshi';
+  color: #FAF3DD;
+}
+h5{
+  font-family: 'Satoshi';
+  color: #FAF3DD;
+}
 nav{
     color: #FAF3DD;
     padding-top: 15px;
@@ -417,7 +428,7 @@ img.wide-image {
   width: 500px;
   
 }
-#disp{
+.disp{
   width: 850px;
   display: flex;
   justify-content: center;
