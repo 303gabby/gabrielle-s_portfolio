@@ -419,7 +419,11 @@ img.wide-image {
 .ighor{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   width: 500px;
+  padding: 50px;
  
 }
 .igvert{
@@ -433,7 +437,10 @@ img.wide-image {
   display: flex;
   justify-content: center;
 }
-
+.dp{
+  display: flex;
+  justify-content: center;
+}
 
 
 
