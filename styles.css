@@ -59,14 +59,21 @@ ul, li{
 h3{
     font-family: 'Satoshi';
   color: #FAF3DD;
+  padding-left: 60px;
+  font-size: 19px;
 }
 h4{
   font-family: 'Satoshi';
   color: #FAF3DD;
+  padding-left: 60px;
+  font-size: 19px;
 }
 h5{
   font-family: 'Satoshi';
-  color: #FAF3DD;
+  color: #36643F;
+  font-size: 20px;
+  padding: 15px;
+
 }
 nav{
     color: #FAF3DD;
@@ -91,6 +98,13 @@ a{
     text-decoration: none;
     font-family: 'Satoshi';
    
+}
+p{
+  padding: 50px;
+  width: 90%;
+  margin: 10px;
+  padding-top: 9px;
+  font-size: 17px;
 }
 
 #big_g{
@@ -336,6 +350,37 @@ hr{
     text-decoration: underline;
    text-underline-offset: 5px;
 }
+
+.featc{
+
+    width: 250px;
+    height: 250px;
+    background: #FAF3DD;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    
+    
+  
+
+}
+
+.feat{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
 /*galleries*/
 .gallery {
     display: grid;
@@ -416,15 +461,15 @@ img.wide-image {
  
 }
 
-.ighor{
+.ighor {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly; /* center instead of space-between */
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 500px;
+  gap: 20px; /* adds space between images */
+   /* allow wrapping if needed */
   padding: 50px;
- 
+  width: 20%; /* or max-width: 850px; depending on layout */
 }
 .igvert{
   display: flex;
