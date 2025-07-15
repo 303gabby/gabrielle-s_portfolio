@@ -398,7 +398,12 @@ img.wide-image {
   display: flex;
 }
 
-
+.ptit{
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+ 
+}
 
 
 

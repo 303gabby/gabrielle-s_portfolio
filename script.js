@@ -9,4 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
   } else {
     console.warn('Toggle button or nav links not found.');
   }
+})
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('#projs .content').forEach(div => {
+    const link = div.querySelector('a');
+    if (link) {
+      div.style.cursor = 'pointer';
+      div.addEventListener('click', () => {
+        window.location.href = link.href;
+      });
+    }
+  });
 });
