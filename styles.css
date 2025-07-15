@@ -405,8 +405,23 @@ img.wide-image {
  
 }
 
-
-
+.ighor{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+ 
+}
+.igvert{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  
+}
+#disp{
+  width: 850px;
+  display: flex;
+  justify-content: center;
+}
 
 
 
