@@ -605,7 +605,19 @@ align-items: center;
 }
 
 
+.center-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* optional for spacing */
+  width: 100%;
+  flex-wrap: wrap;
+}
 
+.center-frame iframe {
+  max-width: 100%;
+  border: none;
+}
 
 
 
