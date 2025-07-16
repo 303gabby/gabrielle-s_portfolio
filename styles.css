@@ -529,30 +529,59 @@ img.wide-image {
 .ighor {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; /* center instead of space-between */
+  justify-content: space-between; /* center instead of space-between */
   align-items: center;
   gap: 20px; /* adds space between images */
    /* allow wrapping if needed */
   padding: 50px;
   width: 20%; /* or max-width: 850px; depending on layout */
 }
-.igvert{
+.ighor img{
+ height: auto;
+ width:300px;
+}
+.igvert {
   display: flex;
-  flex-direction: column;
-  width: 500px;
-  
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%; /* or a specific width if needed */
+  flex-wrap: wrap;
+ 
+  gap: 0px; /* adds space between images */
+}
+
+.igvert img {
+  width: 450px; /* allows two images to sit side-by-side with spacing */
+  height: auto;
+  border-radius: 10px; /* optional, just for aesthetics */
+  padding: 5px;
 }
 .disp{
   width: 850px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .dp{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
+#leghor{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+#leghor img{
 
+  width: auto;
+  height: 350px;
+  border-radius: 10px;
+}
 
 
 
@@ -605,6 +634,15 @@ img.wide-image {
    .mobile-menu-toggle {
     display: block;
     }
+    .disp{
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 }
 @media screen and (max-width: 480px) {
 
@@ -674,6 +712,21 @@ img.wide-image {
   .mobile-menu-toggle {
     display: block;
   }
+  .dp{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+  height: auto;
+}
+.disp{
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 }
 
