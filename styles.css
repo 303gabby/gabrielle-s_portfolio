@@ -531,14 +531,35 @@ img.wide-image {
   flex-direction: row;
   justify-content: space-between; /* center instead of space-between */
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px; /* adds space between images */
-   /* allow wrapping if needed */
   padding: 50px;
-  width: 20%; /* or max-width: 850px; depending on layout */
+  max-width: 850px; /* gives your row enough space */
+  width: 100%; /* full width or you can use a fixed value */
+  margin: auto;
+  flex-wrap: wrap;
 }
 .ighor img{
  height: auto;
  width:300px;
+}
+.ighor2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; /* center instead of space-between */
+  align-items: center;
+ flex-wrap: wrap;
+  gap: 50px; /* adds space between images */
+  padding: 50px;
+   /* gives your row enough space */
+  width: 90%; /* full width or you can use a fixed value */
+
+
+  
+}
+.ighor2 img{
+ height: auto;
+ width:500px;
 }
 .igvert {
   display: flex;
@@ -727,6 +748,35 @@ align-items: center;
   align-items: center;
   flex-wrap: wrap;
 }
+.ighor {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.ighor img {
+  width: 90%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.ighor2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.ighor2 img {
+  width: 90%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 
 }
 
