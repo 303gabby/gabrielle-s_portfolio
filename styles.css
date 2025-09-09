@@ -291,6 +291,7 @@ button{
     border-radius: 3px;
     height: 46px;
     margin-left: 39px;
+    width:200px;
    
 }
 button:hover{
@@ -408,7 +409,10 @@ hr{
   
 
 }
-
+#hew{
+  display: flex;
+  justify-content: center;
+}
 .feat2{
    display: flex;
   flex-direction: row;
