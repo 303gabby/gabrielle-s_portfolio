@@ -49,6 +49,11 @@ body{
     background-color: #36643F;
   
 }
+iframe{
+ width: 80%;
+ height: 700px;
+ border-radius: 50px;
+}
 ul, li{
     color: #FAF3DD;
     text-decoration: none;
