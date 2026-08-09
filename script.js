@@ -21,3 +21,28 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+const nameEl = document.getElementById('name-letters');
+if (nameEl) {
+  const text = nameEl.textContent;
+  nameEl.innerHTML = [...text].map(ch =>
+    `<span class="letter">${ch === ' ' ? '&nbsp;' : ch}</span>`
+  ).join('');
+
+  const letters = nameEl.querySelectorAll('.letter');
+  document.addEventListener('mousemove', (e) => {
+    const rect = nameEl.getBoundingClientRect();
+    letters.forEach(letter => {
+      const lRect = letter.getBoundingClientRect();
+      const dx = e.clientX - (lRect.left + lRect.width / 2);
+      const dy = e.clientY - (lRect.top + lRect.height / 2);
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      const maxDist = 200;
+      if (dist < maxDist) {
+        const pull = (1 - dist / maxDist) * 8;
+        letter.style.transform = `translate(${(dx / dist) * pull}px, ${(dy / dist) * pull}px)`;
+      } else {
+        letter.style.transform = 'translate(0, 0)';
+      }
+    });
+  });
+}
